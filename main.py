@@ -94,7 +94,9 @@ def n_peaks(t,*pars):
 
 
 def parse_input(args):
-
+	"""
+	Take arguments and put into an arguement dictionary
+	"""
 	argument_dictionary = dict()
 
 	argument_dictionary["input_file_path"] = args[0]
