@@ -13,6 +13,11 @@ where
 - init_guess=<float>		--  Initial guesses for center,sigma,amplitude (described below)
 - output_file_name=<str>	--  Path of the file where the output will be generated
 
+A sample exact command is  
+```py
+python main.py data/UV_Vis_TwoPeak_Raw.txt data/output.png 2 200 2500 22000 80 1000 24000"
+```
+
 ### File Format
 This script takes a file which has the data that is separated by space. The first column is for x-axis and 2nd column for y axis.
 An example of the data file looks like:
