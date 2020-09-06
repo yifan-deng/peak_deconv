@@ -22,5 +22,7 @@ An example of the data file looks like:
 | 2 |   15187.38938   |     4.69E-04     |
 | 3 |   15362.69402   |     5.53E-04     |
 
+An example of the data file is located at data/UV_Vis_TwoPeak.txt
+
 ### Initial Guess
 The script also takes the number of peaks and the inital guesses. The initial guesses include amptitude, center, and sigma in this order. The output is a file that plot the data, initial guess, and final fit together.
