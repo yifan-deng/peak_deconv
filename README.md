@@ -15,6 +15,12 @@ where
 
 ### File Format
 This script takes a file which has the data that is separated by space. The first column is for x-axis and 2nd column for y axis.
+An example of the data file looks like:
+| # | Wavelength (nm) | Intensity (a.u.) |
+|:-:|:---------------:|:----------------:|
+| 1 |   15012.08473   |     4.02E-04     |
+| 2 |   15187.38938   |     4.69E-04     |
+| 3 |   15362.69402   |     5.53E-04     |
 
 ### Initial Guess
 The script also takes the number of peaks and the inital guesses. The initial guesses include amptitude, center, and sigma in this order. The output is a file that plot the data, initial guess, and final fit together.
